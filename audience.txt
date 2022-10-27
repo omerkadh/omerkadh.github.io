@@ -1,0 +1,8 @@
+Audience: CS Student
+Venue: README on GitHub Pages
+Purpose: Explain how to host a resume on GitHub Pages.
+Additional purpose: Introduce and demonstrate the principles of Andrew Etter's
+book Modern Technical Writing
+Desired Reaction: Further interested in Technical Communication with respect to Andrew Etter's principles and impressed with GitHub's capabilities
+Vocabulary: First year computer science level technical terms (lowest common denominator), specific, exact, succinct
+Tone: Friendly, supportive, patient
