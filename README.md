@@ -12,11 +12,10 @@ In this README you will learn how to host and format an online resume using: Mar
   - [Prerequisites](#prerequisites)
   - [Instructions](#instructions)
     - [Introduction](#introduction)
-    - [Hosting your resume](#hosting-your-resume)
-      - [Step 1. Creating a Repository](#step-1-creating-a-repository)
-      - [Step 2. Cloning a Repository](#step-2-cloning-a-repository)
-      - [Step 3. Adding a Resume to a Repository](#step-3-adding-a-resume-to-a-repository)
-      - [Step 4. Launching the Website](#step-4-launching-the-website)
+    - [Step 1. Creating a Repository](#step-1-creating-a-repository)
+    - [Step 2. Cloning a Repository](#step-2-cloning-a-repository)
+    - [Step 3. Adding a Resume to a Repository](#step-3-adding-a-resume-to-a-repository)
+    - [Step 4. Launching the Website](#step-4-launching-the-website)
   - [Customization](#customization)
   - [More Resources](#more-resources)
   - [Authors and Acknowledgments](#authors-and-acknowledgments)
@@ -41,9 +40,7 @@ GitHub is a hosting service for Git, which is a distributed version control syst
 
 Markdown is a lightweight markup language. In essence, markup languages text based tools which provide a syntax for users to _mark up_ text with annotations. This syntax can then be read by software to display the text in a more readable and pleasant way.
 
-### Hosting your resume
-
-#### Step 1. Creating a Repository
+### Step 1. Creating a Repository
 
 Creating a repository will take place on the GitHub landing page, _after_ you have logged in.
 
@@ -53,11 +50,11 @@ Creating a repository will take place on the GitHub landing page, _after_ you ha
 3. Ensure **Public** is checked
 4. Click the green **Create repository** button.
 
-#### Step 2. Cloning a Repository
+### Step 2. Cloning a Repository
 
-#### Step 3. Adding a Resume to a Repository
+### Step 3. Adding a Resume to a Repository
 
-#### Step 4. Launching the Website
+### Step 4. Launching the Website
 
 ## Customization
 
