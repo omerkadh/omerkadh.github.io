@@ -1,5 +1,5 @@
 layout: page
-title: "PAGE-TITLE"
-permalink: /
+title: Resume
+permalink: /resume
 
 # My resume
