@@ -2,7 +2,7 @@
 
 ## Purpose
 
-In this README you will learn how to host and format an online resume using: Markdown, a text editor of your choice, GitHub, GitHub Pages, and (minimally) Jekyll. You will learn how this process relates to general principles of modern technical writing from Andrew Etter's book Modern Technical Writing.
+In this README you will learn how to host and format an _online_ resume using: [Markdown](https://www.markdownguide.org/getting-started/), a [text editor](https://code.visualstudio.com/), [GitHub](https://github.com/), [GitHub Pages](https://pages.github.com/), and (minimally) [Jekyll](https://jekyllrb.com/docs/). As a beginner, You will learn a little bit about these tools and how this process relates to the important principles of modern technical writing outlined in Andrew Etter's book, "_Modern Technical Writing_".
 
 ## Contents
 
@@ -12,10 +12,10 @@ In this README you will learn how to host and format an online resume using: Mar
   - [Prerequisites](#prerequisites)
   - [Instructions](#instructions)
     - [Introduction](#introduction)
-    - [Step 1. Creating a Repository](#step-1-creating-a-repository)
-    - [Step 2. Cloning a Repository](#step-2-cloning-a-repository)
-    - [Step 3. Adding a Resume to a Repository](#step-3-adding-a-resume-to-a-repository)
-    - [Step 4. Launching the Website](#step-4-launching-the-website)
+    - [Step 1. Create a Repository](#step-1-create-a-repository)
+    - [Step 2. Copy your MarkDown formatted resume into a README.md file](#step-2-copy-your-markdown-formatted-resume-into-a-readmemd-file)
+    - [Step 3. Access settings to configure GitHub pages](#step-3-access-settings-to-configure-github-pages)
+    - [Step 4. Visit your website](#step-4-visit-your-website)
   - [Customization](#customization)
   - [More Resources](#more-resources)
   - [Authors and Acknowledgments](#authors-and-acknowledgments)
@@ -26,7 +26,8 @@ In this README you will learn how to host and format an online resume using: Mar
 You will need a resume formatted in Markdown to follow these instructions. Take a look at [this](https://www.markdownguide.org/cheat-sheet) cheat sheet for a list of basic Markdown syntax; navigate [here](https://www.markdowntutorial.com/) for an interactive tutorial. Additionally, you will need:
 
 - An internet connection
-- A GitHub account
+- A GitHub account  
+NOTE: Follow [this](https://github.com/) link to GitHub and click "_sign up_" in the top right corner to begin the account creation process. You will need an existing email, username, and password. Once you've finished the creation process, or if you already had an account and signed in, proceed to the [instructions](#instructions).
 
 ## Instructions
 
@@ -34,27 +35,44 @@ The following instructions are based on the GitHub Pages [quick start](https://d
 
 ### Introduction
 
-GitHub and Markdown are two of the most popular tools in today's tech industry. 
+GitHub and Markdown are two of the most popular tools in today's tech industry.
 
-GitHub is a hosting service for Git, which is a distributed version control system (DVCS). GitHub allows users to store and share their software projects online in an environnement that will maintain and keep track of all changes made to a project.
+[GitHub](https://docs.github.com/en/get-started/quickstart/hello-world) is a hosting (containing) service for [git](https://git-scm.com/), which is a [distributed version control system](https://en.wikipedia.org/wiki/Distributed_version_control) (DVCS). GitHub allows users to store and share their software projects online in an environnement that will maintain and keep track of all changes made to a digital project. GitHub can help you "Catalog the Diff" as Andrew says in his book. As you make edits on this and future products, a changelog serves as a catalog of all your progress; this can help viewers gain confidence in your project and get an idea of the overall direction you're heading.
 
-Markdown is a lightweight markup language. In essence, markup languages text based tools which provide a syntax for users to _mark up_ text with annotations. This syntax can then be read by software to display the text in a more readable and pleasant way.
+Markdown is a lightweight markup language written in regular plain text (like a .txt file). In essence, markup languages are text based tools which provide a syntax for users to _mark up_ the text with annotations. This syntax can then be read by software to display the text in a more readable and pleasant way.  
+NOTE: anytime a SomeName.md file is mentioned, we are talking about a MarkDown file.
 
-### Step 1. Creating a Repository
+### Step 1. Create a Repository
 
-Creating a repository will take place on the GitHub landing page, _after_ you have logged in.
+Now that you have a GitHub account, the first thing you need to do is create a new repository to host (hold) the resume you will be hosting online. Begin from your "_personal dashboard_" which is the first page you see after logging in.  
+NOTE: You can think of a repository as the top level director on a file system, with virtually any number of sub directories you like. See [here](https://docs.github.com/en/repositories/creating-and-managing-repositories/about-repositories) for more information.
 
-1. Press the green **New** button.
-2. Make the **Repository name**, `username.github.io`
-    - Ensure `username` is your GitHub username.
-3. Ensure **Public** is checked
-4. Click the green **Create repository** button.
+1. Click the "_plus_" icon next the the "_bell_" in the top right corner of the dashboard.
+2. Click "_New repository_".
+3. Enter "_YourUsername.github.io_" under "_Repository name_", replacing "_YourUsername_" with the username for your GitHub account.  
+NOTE: This specific naming scheme is _essential_ for the hosting to work. In brief, it tells github that this repository will be used for online hosting.
+NOTE: Ensure "_Public_" is selected, not "_Private_".
+4. Scroll down and click the green "_Create repository_" button.  
+RESULT: You will see a sort of quick setup page. Everything here can be ignored besides the "_README_" hyperlink.
+5. Click the hyperlink labeled "_README_". It is located under and to the right of the "_Quick setup_" heading, in the same rectangular section.  
+NOTE: This README.md file is where you will paste your resume.
+6. Scroll down to the bottom of the page.
+7. Click "_Commit new file_".  
+NOTE: It doesn't matter what is currently in the README.md file; you can edit the file at any time.
 
-### Step 2. Cloning a Repository
+Another important suggestion by Andrew is to use a DVCS. While the capabilities of a system like git may exceed what is needed for software documentation, not using a DVCS is a wasted opportunity. Almost every large software company uses some kind of DVCS, so a technical writer that refuses to follow suit is not a good look. Additionaly, since most of the software a writer is documenting will itself be using a DVCS, using a DVCS for documentation presents the opportunity to keep code and documentation close together. As the code progresses, so too can the documentation. And as developers continue to work on code, it may be more likely for them to contribute to the documentation themselves.
 
-### Step 3. Adding a Resume to a Repository
+### Step 2. Copy your MarkDown formatted resume into a README.md file
 
-### Step 4. Launching the Website
+The README.md file will automatically be recognized by GitHub and used to populate your website. Thus, pasting your MarkDown formated resume here is the simplest method for hosting your resume online.  
+To start, you should be viewing the "_Code_" tab within your repository. If you are just returning to the GitHub [website](https://github.com/), from your dashboard click on the icon next to the "_plus_" sign on the top right of the page, then click "_Your repositories_". Select the YourUsername.github.io repository you created earlier.
+
+1. Click on "_README.md_".
+2. 
+
+### Step 3. Access settings to configure GitHub pages
+
+### Step 4. Visit your website
 
 ## Customization
 
@@ -68,9 +86,9 @@ Customizing your GitHub Pages site can be simple or become incredibly complex. T
 
 ## Authors and Acknowledgments
 
-*This project uses the [Cayman Jekyll theme](https://github.com/pages-themes/cayman).
+-This project uses the [Cayman Jekyll theme](https://github.com/pages-themes/cayman).
 
-*Discussions in the README are based on the book, _Modern Technical Writing_ by Andrew Etter.
+-Discussions in the README are based on the book, _Modern Technical Writing_ by Andrew Etter.
 
 ## FAQ
 
