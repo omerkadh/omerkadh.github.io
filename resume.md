@@ -1,12 +1,10 @@
 # **Hairudin (Dino) Omerkadic**
 
-70 Grantsmuir Dr.
+Winnipeg, Manitoba
 
-Winnipeg, Manitoba R3W 0A2
+**Phone: (204) 123-4567**
 
-**Phone: (204) 619-1680**
-
-**Email: hairudin35@gmail.ca**
+**Email: myemail@gmail.ca**
 
 Passionate and motivated computer science student looking for the opportunity to develop and use his skills in a professional context. Possesses extensive experience communicating and collaborating with superiors, coworkers, and classmates.  Interested in providing professional services and developing powerful relationships.
 
@@ -38,11 +36,11 @@ Winter 2021 **Programming Practices (COMP 2160)**
 
 ## **Computer Skills:**
 
-Languages			- Java Script,  Java,  HTML, CSS, Python, C/C++
+Languages - Java Script,  Java,  HTML, CSS, Python, C/C++
 
-Software			- Microsoft Office, JetBrains IDEs and common editors, Command Line Interfaces
+Software - Microsoft Office, JetBrains IDEs and common editors, Command Line Interfaces
 
-Operating Systems		- Windows Vista - 10, Android, macOS, IOS, Linux on a Virtual Machine
+Operating Systems - Windows Vista - 10, Android, macOS, IOS, Linux on a Virtual Machine
 
 ## **Work Experience**
 
