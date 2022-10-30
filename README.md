@@ -87,6 +87,8 @@ After this step, your resume will be hosted as a [static site](https://en.wikipe
 
 - All GitHub related steps were devised using information from their site and documentations.
 
+- This project uses the [merlot](https://github.com/pages-themes/merlot) Jekyll theme.
+
 - Discussions in the README are based on the referenced book, _Modern Technical Writing_ by Andrew Etter.
 
 ## FAQ
