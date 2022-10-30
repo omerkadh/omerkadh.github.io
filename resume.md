@@ -1,7 +1,3 @@
-layout: page
-title:
-permalink: /resume
-
 # **Hairudin (Dino) Omerkadic**
 
 70 Grantsmuir Dr.
