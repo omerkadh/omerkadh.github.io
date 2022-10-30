@@ -13,8 +13,8 @@ In this README you will learn how to host and format an _online_ resume using: [
   - [Instructions](#instructions)
     - [Introduction](#introduction)
     - [Step 1. Create a Repository](#step-1-create-a-repository)
-    - [Step 2. Copy your MarkDown formatted resume into a README.md file](#step-2-copy-your-markdown-formatted-resume-into-a-readmemd-file)
-    - [Step 3. Access settings to configure GitHub pages](#step-3-access-settings-to-configure-github-pages)
+    - [Step 2. Copy your Markdown formatted resume into a README.md file](#step-2-copy-your-markdown-formatted-resume-into-a-readmemd-file)
+    - [Step 3. Configure the repository settings to host the resume online](#step-3-configure-the-repository-settings-to-host-the-resume-online)
     - [Step 4. Visit your website](#step-4-visit-your-website)
   - [Customization](#customization)
   - [More Resources](#more-resources)
@@ -40,7 +40,7 @@ GitHub and Markdown are two of the most popular tools in today's tech industry.
 [GitHub](https://docs.github.com/en/get-started/quickstart/hello-world) is a hosting (containing) service for [git](https://git-scm.com/), which is a [distributed version control system](https://en.wikipedia.org/wiki/Distributed_version_control) (DVCS). GitHub allows users to store and share their software projects online in an environnement that will maintain and keep track of all changes made to a digital project. GitHub can help you "Catalog the Diff" as Andrew says in his book. As you make edits on this and future products, a changelog serves as a catalog of all your progress; this can help viewers gain confidence in your project and get an idea of the overall direction you're heading.
 
 Markdown is a lightweight markup language written in regular plain text (like a .txt file). In essence, markup languages are text based tools which provide a syntax for users to _mark up_ the text with annotations. This syntax can then be read by software to display the text in a more readable and pleasant way.  
-NOTE: anytime a SomeName.md file is mentioned, we are talking about a MarkDown file.
+NOTE: anytime a SomeName.md file is mentioned, we are talking about a Markdown file.
 
 ### Step 1. Create a Repository
 
@@ -60,17 +60,33 @@ NOTE: This README.md file is where you will paste your resume.
 7. Click "_Commit new file_".  
 NOTE: It doesn't matter what is currently in the README.md file; you can edit the file at any time.
 
-Another important suggestion by Andrew is to use a DVCS. While the capabilities of a system like git may exceed what is needed for software documentation, not using a DVCS is a wasted opportunity. Almost every large software company uses some kind of DVCS, so a technical writer that refuses to follow suit is not a good look. Additionaly, since most of the software a writer is documenting will itself be using a DVCS, using a DVCS for documentation presents the opportunity to keep code and documentation close together. As the code progresses, so too can the documentation. And as developers continue to work on code, it may be more likely for them to contribute to the documentation themselves.
+Another important suggestion by Andrew is to use a DVCS. While the capabilities of a system like git may exceed what is needed for software documentation, not using a DVCS is a wasted opportunity. Almost every large software company uses some kind of DVCS, so a technical writer that refuses to follow suit is not a good look. Additionally, since most of the software a writer is documenting will itself be using a DVCS, using a DVCS for documentation presents the opportunity to keep code and documentation close together. As the code progresses, so too can the documentation. And as developers continue to work on code, it may be more likely for them to contribute to the documentation themselves.
 
-### Step 2. Copy your MarkDown formatted resume into a README.md file
+### Step 2. Copy your Markdown formatted resume into a README.md file
 
-The README.md file will automatically be recognized by GitHub and used to populate your website. Thus, pasting your MarkDown formated resume here is the simplest method for hosting your resume online.  
-To start, you should be viewing the "_Code_" tab within your repository. If you are just returning to the GitHub [website](https://github.com/), from your dashboard click on the icon next to the "_plus_" sign on the top right of the page, then click "_Your repositories_". Select the YourUsername.github.io repository you created earlier.
+The README.md file will automatically be recognized by GitHub and used to populate your website. Thus, pasting your Markdown formated resume here is the simplest method for hosting your resume online.  
+To start, you should be viewing the "_Code_" tab within your repository. If you are just returning to the GitHub [website](https://github.com/), you should be at your dashboard. Click on the icon to the right of the "_plus_" sign on the top right of the page, then click "_Your repositories_". Select the YourUsername.github.io repository you created earlier.
 
 1. Click on "_README.md_".
-2. 
+   - You should see a preview of the "_README.md_" file which may contain 0 lines (1 blank line on the preview).
+2. Click the pencil icon above the preview to edit the file.
+3. Paste or type your Markdown formatted readme file in the text box.
+4. Scroll to the bottom of the page.
+5. Click "_Commit changes_".
 
-### Step 3. Access settings to configure GitHub pages
+As Andrew says in his book, lightweight markup languages such as Markdown are essential for a technical writer. Compared to a document in [XML](https://www.w3.org/standards/xml/core#:~:text=What%20is%20XML%3F,more%20suitable%20for%20Web%20use.), which is not a _lightweight_ markup language, the same document in Markdown would likely have half the amount of text, be much easier to read, be much easier to write. Furthermore, Markdown syntax is quicker and easier to learn. When sharing documentation in a public repository such as this one, the accessability this affords is important to allow shared contributions. Other options such as specialized editors for XML and Microsoft Word are both expensive and, in the case of Word, require specific software to view. On the other hand, free text editors are available on almost any computer and provide all you need to view and edit Markdown files.
+
+### Step 3. Configure the repository settings to host the resume online
+
+Like in [Step 2](#step-2-copy-your-markdown-formatted-resume-into-a-readmemd-file), you will first need to be in your _YourUsername.github.io_ repository. Here we will configure the source of data for your website, the particular [branch](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-branches) to pull from, and the folder within that branch to pull from.
+
+1. Click the _Settings_ tab heading located to the far right of the _Code_ heading.
+2. Click the _Pages_ link located about half down the left side of the page under _Code and automation_.
+3. Click the dropdown menu under _Source_ and ensure _Deploy from a branch_ is selected.
+4. Click the two dropdown menus under _Branch_ and ensure _main_ and _/(root)_ are both selected respectively.  
+RESULT: Your site will now be hosted and built from the README file created earlier. If these options were already selected, your site has already been built prior to this sequence.
+
+This step relates to Andrew's comments on [_Resync_](https://rsync.samba.org/) and "_scripting your complexity away_". One thing to note is that Github is doing a lot of work behind the scenes to host this resume online. There are a lot of steps that future users and contributors will more than likely not want to go through. Instead, a script which automatically performs all the steps should be used and made available for all. Notice how this step only took a few clicks to perform; this is made possible by Github's numerous softwares and scripts being run without automatically.
 
 ### Step 4. Visit your website
 
