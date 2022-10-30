@@ -1,5 +1,7 @@
 # Hosting a Resume on GitHub Pages
 
+![MyResume](Resume.gif)
+
 ## Purpose
 
 In this README you will learn how to host and format an online resume using: [Markdown](https://www.markdownguide.org/getting-started/), a [text editor](https://code.visualstudio.com/), [GitHub](https://github.com/), [GitHub Pages](https://pages.github.com/), and (minimally) [Jekyll](https://jekyllrb.com/docs/). As a beginner, you will learn a little bit about these tools and how this process relates to principles of modern technical writing outlined in Andrew Etter's book, _Modern Technical Writing_.
