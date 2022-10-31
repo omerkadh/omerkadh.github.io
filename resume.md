@@ -1,6 +1,6 @@
 # **Hairudin (Dino) Omerkadic**
 
-Winnipeg, Manitoba
+**Winnipeg, Manitoba**
 
 **Phone: (204) 123-4567**
 
