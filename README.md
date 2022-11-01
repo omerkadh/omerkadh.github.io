@@ -102,6 +102,8 @@ Finally, your resume will be hosted as a [static site](https://en.wikipedia.org/
 
 - Discussions in the README are based on the referenced book, _Modern Technical Writing_ by Andrew Etter.
 
+- Thanks to Dipesh Shah, Ming Tai Lin, and Emmanuel Oguntola for the peer review and feedback.
+
 ## FAQ
 
 ### Why is Markdown better than a word processor?
