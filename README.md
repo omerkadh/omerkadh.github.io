@@ -104,6 +104,8 @@ Finally, your resume will be hosted as a [static site](https://en.wikipedia.org/
 
 - Thanks to Dipesh Shah, Ming Tai Lin, and Emmanuel Oguntola for the peer review and feedback.
 
+- [mszep](https://mszep.github.io/pandoc_resume/) for the resume sample.
+
 ## FAQ
 
 ### Why is Markdown better than a word processor?
