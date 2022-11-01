@@ -71,7 +71,7 @@ RESULT: Your site will now be built and hosted from the README file created earl
 ![A gif of this step](Step3.gif)  
 _An illustration of Step 3._
 
-This step relates to Andrew's comments on [Resync](https://rsync.samba.org/) and "scripting your complexity away". The idea here is that Github is doing a lot of work behind the scenes to host this resume online. There are many steps that you and other contributors will not want to repeatedly go through. Instead, a script which automatically performs all the steps should be used and made available. Notice how this step only took a few clicks to perform; this is made possible by Github's numerous softwares and scripts being run automatically.
+This step relates to Andrew's comments on "scripting your complexity away". The idea here is that Github is doing a lot of work behind the scenes to host this resume online. There are many steps that you and other contributors will not want to repeatedly go through. Instead, a script which automatically performs all the steps should be used and made available. Notice how this step only took a few clicks to perform; this is made possible by Github's numerous softwares and scripts being run automatically.
 
 ### Step 4. Visit your website
 
