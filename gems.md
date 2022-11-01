@@ -1,1 +1,0 @@
-A DVCS, as the name implies, is a software system which allows you immense control ever the versioning of some digital project. As a project grows it goes through many different iterations; a DVCS allows you to go back and forth between these iterations.
