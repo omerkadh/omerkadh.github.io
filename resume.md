@@ -36,11 +36,11 @@ Winter 2021 **Programming Practices (COMP 2160)**
 
 ## **Computer Skills:**
 
-Languages - Java Script,  Java,  HTML, CSS, Python, C/C++
+**Languages** - Java Script,  Java,  HTML, CSS, Python, C/C++
 
-Software - Microsoft Office, JetBrains IDEs and common editors, Command Line Interfaces
+**Software** - Microsoft Office, JetBrains IDEs and common editors, Command Line Interfaces
 
-Operating Systems - Windows Vista - 10, Android, macOS, IOS, Linux on a Virtual Machine
+**Operating Systems** - Windows Vista - 10, Android, macOS, IOS, Linux on a Virtual Machine
 
 ## **Work Experience**
 
