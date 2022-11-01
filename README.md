@@ -1,7 +1,7 @@
 # Hosting a Resume on GitHub Pages
 
 ![MyResume](Resume.gif)  
-My resume as a sample.
+_My resume as a sample._
 
 ## Purpose
 
@@ -38,7 +38,7 @@ NOTE: This `README.md` file is where you will paste your resume.
 8. Click _Commit new file_.  
 
 ![A gif of this step](Step1.gif)  
-_An illustration of this step._
+_An illustration of Step 1._
 
 An important suggestion by Andrew is use a [distributed version control system](https://en.wikipedia.org/wiki/Distributed_version_control) (DVCS). Often, not using a DVCS is a wasted opportunity. Almost every large software company uses some kind of DVCS, so a technical writer that refuses to follow suit is not a good look. Additionally, since most of the software a writer is documenting will itself be using a DVCS, using a DVCS for documentation presents the opportunity to keep code and documentation close together. As the code progresses, so too can the documentation.
 
@@ -54,7 +54,7 @@ RESULT: You should see a preview of the README file.
 5. Click "_Commit changes_".
 
 ![A gif of this step](Step2.gif)  
-_An illustration of this step._
+_An illustration of Step 2._
 
 As Andrew says in his book, [lightweight markup languages](https://en.wikipedia.org/wiki/Lightweight_markup_language) such as Markdown are essential for a technical writer. Compared to a document in [XML](https://www.w3.org/standards/xml/core#:~:text=What%20is%20XML%3F,more%20suitable%20for%20Web%20use.), which is not a lightweight markup language (but still a markup language), the same document in Markdown would likely have half the amount of text, be much easier to read, and be much easier to write. Furthermore, Markdown syntax is quicker and easier to learn. When sharing documentation in a public repository such as this one, the accessibility this affords is important to allow shared contributions.
 
@@ -69,7 +69,7 @@ Here we will configure the source of data, the particular [branch](https://docs.
 RESULT: Your site will now be built and hosted from the README file created earlier. If these options were already selected, your site has already been built prior to this sequence.
 
 ![A gif of this step](Step3.gif)  
-_An illustration of this step._
+_An illustration of Step 3._
 
 This step relates to Andrew's comments on [Resync](https://rsync.samba.org/) and "scripting your complexity away". The idea here is that Github is doing a lot of work behind the scenes to host this resume online. There are many steps that you and other contributors will not want to repeatedly go through. Instead, a script which automatically performs all the steps should be used and made available. Notice how this step only took a few clicks to perform; this is made possible by Github's numerous softwares and scripts being run automatically.
 
@@ -82,7 +82,7 @@ The building process can take up to 10 minutes. If the build is in progress you 
 RESULT: You will see your resume hosted as its own website.
 
 ![A gif of this step](Step4.gif)  
-_An illustration of this step._
+_An illustration of Step 4._
 
 Finally, your resume will be hosted as a [static site](https://en.wikipedia.org/wiki/Static_web_page). As stated in Andrew's book, static sites provide many virtues for technical writers such as: simplicity, speed, portability, and security. Since static sites are loaded as is from stored files, the hosting server just displays its content; this saves time and computing power. Additionally, there are tools which generate all the files needed for static sites using simple Markdown files as the foundation. In our case, Github uses [Jekyll](http://jekyllrb.com/) to generate the website you just viewed.
 
