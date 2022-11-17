@@ -5,7 +5,7 @@ _My resume as a sample._
 
 ## Purpose
 
-In this README you will learn how to host and format an online resume using: [Markdown](https://www.markdownguide.org/getting-started/), a [text editor](https://code.visualstudio.com/), [GitHub](https://github.com/), [GitHub Pages](https://pages.github.com/), and (minimally) [Jekyll](https://jekyllrb.com/docs/). You will learn a little bit about these tools and they relate to principles of modern technical writing outlined in Andrew Etter's book, _Modern Technical Writing_.
+In this README you will learn how to host and format an online resume using: [Markdown](https://www.markdownguide.org/getting-started/), a [text editor](https://code.visualstudio.com/), [GitHub](https://github.com/), [GitHub Pages](https://pages.github.com/), and (minimally) [Jekyll](https://jekyllrb.com/docs/). You will learn a little bit about these tools and how they relate to principles of modern technical writing outlined in Andrew Etter's book, _Modern Technical Writing_.
 
 ## Prerequisites
 
